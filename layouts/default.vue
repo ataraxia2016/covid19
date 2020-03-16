@@ -1,8 +1,8 @@
 <template>
   <v-app class="app">
     <div v-if="loading" class="loader">
-      <img src="/logo.svg" alt="東京都" />
-      <scale-loader color="#00A040" />
+      <img src="/logo.png" alt="新潟県" />
+      <scale-loader color="#3BA040" />
     </div>
     <div v-else-if="hasNavigation" class="appContainer">
       <div class="naviContainer">
