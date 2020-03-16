@@ -12,7 +12,7 @@
       <br />
       {{
         $t(
-          '新潟県による公式情報と客観的な数値をわかりやすく伝えることで、新潟県にお住まいの方や、新潟県内に拠点を持つ企業の方、東京都を訪れる方が、現状を把握して適切な対策を取れるようにすることを目的としています。'
+          '新潟県による公式情報と客観的な数値をわかりやすく伝えることで、新潟県にお住まいの方や、新潟県内に拠点を持つ企業の方、新潟県を訪れる方が、現状を把握して適切な対策を取れるようにすることを目的としています。'
         )
       }}
     </TextCard>
@@ -144,12 +144,12 @@
         path="本サイトで公表しているデータは、{catalogWebsite}より誰でも自由にダウンロードが可能です。（データは順次追加予定です）"
       >
         <a
-          href="https://portal.data.metro.tokyo.lg.jp/"
+          href="https://www.pref.niigata.lg.jp/sec/kenko/bukan-haien.html"
           target="_blank"
           rel="noopener"
           place="catalogWebsite"
         >
-          {{ $t('東京都オープンデータカタログサイト') }}
+          {{ $t('新潟県新型コロナのページ') }}
         </a>
       </i18n>
     </TextCard>
@@ -161,7 +161,7 @@
       }}
       <i18n path="詳しくは、{githubRepo}をご確認ください。">
         <a
-          href="https://github.com/tokyo-metropolitan-gov/covid19"
+          href="https://github.com/air-h-128k-il/covid19"
           target="_blank"
           rel="noopener"
           place="githubRepo"
@@ -170,10 +170,12 @@
         </a>
       </i18n>
     </TextCard>
-    <TextCard :title="$t('お問い合わせ先（都のHPサイトポリシーについて）')">
-      {{ $t('東京都生活文化局広報広聴部広報課') }}<br />
-      {{ $t('電話') }}:
-      <a href="tel:03-5388-3085">03-5388-3085</a>
+    <TextCard
+      :title="$t('お問い合わせ先（本サイトの公開ポリシーなどについて）')"
+    >
+      {{ $t('テスト') }}<br />
+      {{ $t('テスト') }}:
+      <a href="https://phazor.info">テスト</a>
     </TextCard>
   </div>
 </template>
