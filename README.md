@@ -1,7 +1,7 @@
 # 新潟県（非公式） 新型コロナウイルス感染症対策サイト
 
 
-[![新潟県（非公式） 新型コロナウイルス感染症対策サイト](https://user-images.githubusercontent.com/20388463/76756079-67c05700-67c8-11ea-8403-4d45dde7e80b.png)](https://dazzling-blackwell-d25980.netlify.com/)
+[![新潟県（非公式） 新型コロナウイルス感染症対策サイト](https://user-images.githubusercontent.com/20388463/76857312-8aba3c00-6898-11ea-9e49-ab5bd7e65be3.png)](https://stopcovid19-niigata-unofficial.netlify.com/)
 
 ### 日本語 | [English](./README_EN.md) | [Spanish](./README_ES.md) | [Korean](./README_KO.md) | [Chinese (Taiwan)](./README_ZH_TW.md) | [Chinese (Simplified)](./README_ZH_CN.md) | [Vietnamese](./README_VI.md)
 
