@@ -8,12 +8,12 @@
           }}</span>
         </div>
         <div :class="[$style.AdvisoryContentsColsSentense, 'mt-4']">
-          {{ $t('帰国者・接触者 電話相談センター') }}
+          {{ $t('新潟県新型コロナウイルス感染症コールセンター') }}
         </div>
         <div>
           <div :class="[$style.AdvisoryBoxContainer, $style.AdvisoryWhiteBox]">
             <span :class="$style.AdvisoryWhiteBoxSentense">
-              {{ $t('24時間対応') }}
+              {{ $t('下記参照') }}
             </span>
           </div>
         </div>
@@ -32,11 +32,11 @@
             ]"
           >
             <a
-              href="https://www.fukushihoken.metro.tokyo.lg.jp/iryo/kansen/coronasodan.html"
+              href="https://www.pref.niigata.lg.jp/site/fukushi/"
               target="_blank"
               rel="noopener"
             >
-              <span>{{ $t('各保健所の電話番号は福祉保健局HPへ') }}</span>
+              <span>{{ $t('各保健所の電話番号は福祉保健部HPへ') }}</span>
               <v-icon size="18">
                 mdi-open-in-new
               </v-icon>
@@ -48,13 +48,13 @@
       <div :class="$style.AdvisoryContents">
         <div class="pt-8">
           <div :class="$style.AdvisoryContentsTitle2">
-            {{ $t('平日（夜間）') }}
+            {{ $t('平日') }}
           </div>
-          <span>{{ $t('午後5時から翌朝午前9時') }}</span>
+          <span>{{ $t('8:30 - !7:00') }}</span>
         </div>
         <div class="mt-1">
           <span :class="$style.AdvisoryContentsSubTitle">
-            {{ $t('土日祝 終日') }}
+            {{ $t('土日祝 休み') }}
           </span>
         </div>
         <div
@@ -65,7 +65,7 @@
           ]"
         >
           <img src="/flow/phone-24px.svg" />
-          <span :class="$style.AdvisoryTelephone">03-5320-4592</span>
+          <span :class="$style.AdvisoryTelephone">025-282-1754</span>
         </div>
       </div>
     </div>
