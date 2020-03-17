@@ -19,7 +19,7 @@ const config: Configuration = {
         hid: 'description',
         name: 'description',
         content:
-          '当サイトは新型コロナウイルス感染症（COVID-19）に関する最新情報を提供するために、新潟県が開設したものです。'
+          '当サイトは新型コロナウイルス感染症（COVID-19）に関する最新情報を提供するために、市民有志が開設したものです。'
       },
       {
         hid: 'og:site_name',
@@ -30,7 +30,7 @@ const config: Configuration = {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'https://dazzling-blackwell-d25980.netlify.com/'
+        content: 'https://stopcovid19-niigata-unofficial.netlify.com/'
       },
       {
         hid: 'og:title',
@@ -41,12 +41,12 @@ const config: Configuration = {
         hid: 'og:description',
         property: 'og:description',
         content:
-          '当サイトは新型コロナウイルス感染症（COVID-19）に関する最新情報を提供するために、新潟県が開設したものです。'
+          '当サイトは新型コロナウイルス感染症（COVID-19）に関する最新情報を提供するために、市民有志が開設したものです。'
       },
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://dazzling-blackwell-d25980.netlify.com/ogp.png'
+        content: 'https://stopcovid19-niigata-unofficial.netlify.com/ogp.png'
       },
       {
         hid: 'twitter:card',
@@ -56,17 +56,17 @@ const config: Configuration = {
       {
         hid: 'twitter:site',
         name: 'twitter:site',
-        content: '@tokyo_bousai'
+        content: '@H_Inomata'
       },
       {
         hid: 'twitter:creator',
         name: 'twitter:creator',
-        content: '@tokyo_bousai'
+        content: '@H_Inomata'
       },
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: 'https://dazzling-blackwell-d25980.netlify.com//ogp.png'
+        content: 'https://stopcovid19-niigata-unofficial.netlify.com/ogp.png'
       },
       {
         hid: 'fb:app_id',

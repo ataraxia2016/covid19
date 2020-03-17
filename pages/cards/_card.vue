@@ -166,7 +166,7 @@ export default {
     return data
   },
   head() {
-    const url = 'https://dazzling-blackwell-d25980.netlify.com/'
+    const url = 'https://stopcovid19-niigata-unofficial.netlify.com/'
     const ogpImage = url + '/ogp-' + this.$route.params.card + '.png'
     const description =
       this.updatedAt +
