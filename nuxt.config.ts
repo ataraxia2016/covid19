@@ -134,7 +134,7 @@ const config: Configuration = {
             code: 'ja',
             name: '日本語',
             iso: 'ja-JP'
-          },
+          } /*,
           {
             code: 'en',
             name: 'English',
@@ -168,7 +168,7 @@ const config: Configuration = {
             code: 'ja-basic',
             name: 'やさしい にほんご',
             iso: 'ja-JP'
-          }
+          } */
         ],
         defaultLocale: 'ja',
         vueI18n: {
