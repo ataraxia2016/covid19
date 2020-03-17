@@ -13,10 +13,10 @@
       :btn-text="$t('相談の手順を見る')"
     />
     <v-row class="DataBlock">
-      <confirmed-cases-details-card />
-      <confirmed-cases-number-card />
-      <confirmed-cases-attributes-card />
       <tested-number-card />
+      <confirmed-cases-number-card />
+      <confirmed-cases-details-card />
+      <confirmed-cases-attributes-card />
       <telephone-advisory-reports-number-card />
       <consultation-desk-reports-number-card />
       <metro-card />
