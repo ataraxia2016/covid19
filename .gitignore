@@ -96,3 +96,9 @@ sw.*
 
 # OGP images
 ogp/*
+
+#test
+component/cards/MetroCard.vue
+component/cards/AgencyCards.vue
+component/cards/ConsultationDeskReportsCard.vue
+component/cards/TelephoneAdvisoryReportsNumberCard.vue
