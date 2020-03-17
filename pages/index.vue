@@ -17,10 +17,10 @@
       <confirmed-cases-number-card />
       <confirmed-cases-details-card />
       <confirmed-cases-attributes-card />
-      <telephone-advisory-reports-number-card />
+      <!--<telephone-advisory-reports-number-card />
       <consultation-desk-reports-number-card />
       <metro-card />
-      <agency-card />
+      <agency-card />-->
     </v-row>
   </div>
 </template>
