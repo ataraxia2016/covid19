@@ -7,7 +7,7 @@
       }}</small>
     </h4>
     <p :class="[$style.open, $style.fzMedium]">
-      <span>{{ $t('24時間対応') }}</span>
+      <span>{{ $t('詳しくは新潟県の該当ページへ') }}</span>
     </p>
     <dl>
       <div :class="$style.daytime">
@@ -16,7 +16,7 @@
         </dt>
         <dd :class="$style.link">
           <a
-            href="https://www.fukushihoken.metro.tokyo.lg.jp/iryo/kansen/coronasodan.html"
+            href="https://www.pref.niigata.lg.jp/sec/kenko/corona-center2.html"
             target="_blank"
             rel="noopener"
           >
@@ -32,13 +32,13 @@
           <ul :class="[$style.night]">
             <li>
               <span :class="[$style.fzMedium, $style.break, $style.mb10]">
-                {{ $t('平日（夜間）') }}
+                {{ $t('平日') }}
               </span>
-              {{ $t('午後5時から翌朝午前9時') }}
+              {{ $t('8:30-17:00') }}
             </li>
             <li>
               <span :class="$style.fzMedium">
-                {{ $t('土日祝 終日') }}
+                {{ $t('土日祝 休み') }}
               </span>
             </li>
           </ul>
@@ -48,7 +48,7 @@
             <span :class="$style.icon">
               <PhoneIcon alt="Phone" />
             </span>
-            <a href="tel:0353204592">03-5320-4592</a>
+            <a href="tel:0252821754">025-282-1754</a>
           </div>
         </dd>
       </div>
