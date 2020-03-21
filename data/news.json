@@ -1,9 +1,14 @@
 {
     "newsItems": [
         {
-            "date": "3\/11\/2020",
-            "url": "https:\/\/www.pref.niigata.lg.jp\/sec\/kenko\/2020survey10.html",
-            "text": "新潟県感染症情報（週報速報版）令和2年第10週"
+            "date": "3\/19\/2020",
+            "url": "https:\/\/www.mhlw.go.jp\/content\/000610600.pdf",
+            "text": "厚労省『新型コロナウイルス感染症の患者数が大幅に増えたときに備えた入院医療提供体制等の整備について』"
+        },
+        {
+            "date": "3\/21\/2020",
+            "url": "https:\/\/www.pref.niigata.lg.jp\/uploaded\/life\/266195_380913_misc.pdf",
+            "text": "新潟県『第４回新型コロナウイルス感染症に対する対策本部会議次第』"
         }
     ]
 }
