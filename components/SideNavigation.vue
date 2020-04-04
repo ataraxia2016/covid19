@@ -84,7 +84,7 @@
           </a>
           {{ $t('の下に提供されています。') }}
           <br />
-          test
+          STOPCOVID19
         </small>
       </v-footer>
     </div>
