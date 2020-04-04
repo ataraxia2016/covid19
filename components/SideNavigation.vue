@@ -84,7 +84,7 @@
           </a>
           {{ $t('の下に提供されています。') }}
           <br />
-          2020 Tokyo Metropolitan Government
+          test
         </small>
       </v-footer>
     </div>
@@ -115,6 +115,10 @@ export default {
           icon: 'mdi-chart-timeline-variant',
           title: this.$t('都内の最新感染動向'),
           link: this.localePath('/')
+        },
+        {
+          title: this.$t('■ データの読み方・解釈'),
+          link: 'https://phazor.info/blog-ja/?p=1320'
         },
         {
           icon: 'covid',
