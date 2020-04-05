@@ -158,9 +158,12 @@ export default {
             'https://www.pref.niigata.lg.jp/sec/kikitaisaku/kenshisetsu-kyuushi.html'
         },
         {
-          title: this.$t('【参考】東京都知事からのメッセージ'),
-          link:
-            'https://www.metro.tokyo.lg.jp/tosei/governor/governor/katsudo/2020/03/03_00.html'
+          title: this.$t('【東京では・・】東京都公式サイト'),
+          link: 'https://stopcovid19.metro.tokyo.lg.jp/'
+        },
+        {
+          title: this.$t('【近隣県もチェック！】群馬県非公式サイト'),
+          link: 'https://stopcovid19-gunma.netlify.com/'
         },
         {
           title: this.$t('当サイトについて'),
