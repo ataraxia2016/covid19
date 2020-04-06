@@ -125,6 +125,10 @@ export default {
           link: 'https://phazor.info/blog-ja/?p=1320'
         },
         {
+          title: this.$t('■ 当サイトについて'),
+          link: this.localePath('/about')
+        },
+        {
           icon: 'covid',
           title: this.$t('新型コロナウイルス感染症が心配なときに'),
           link: this.localePath('/flow'),
@@ -166,8 +170,8 @@ export default {
           link: 'https://stopcovid19-gunma.netlify.com/'
         },
         {
-          title: this.$t('当サイトについて'),
-          link: this.localePath('/about')
+          title: this.$t('【近隣県もチェック！】山形県非公式サイト'),
+          link: 'https://covid19-yamagata.netlify.com/'
         },
         {
           title: this.$t('新潟県公式ホームページ'),
