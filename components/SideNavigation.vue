@@ -121,7 +121,7 @@ export default {
           link: this.localePath('/')
         },
         {
-          title: this.$t('■ データの読み方・解釈'),
+          title: this.$t('■ データの読み方・解釈(適宜更新)'),
           link: 'https://phazor.info/blog-ja/?p=1320'
         },
         {
