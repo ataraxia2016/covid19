@@ -157,11 +157,6 @@ export default {
             'https://www.pref.niigata.lg.jp/sec/kikitaisaku/shingata-corona.html'
         },
         {
-          title: this.$t('新潟県主催等 中止又は延期するイベント等'),
-          link:
-            'https://www.pref.niigata.lg.jp/sec/kikitaisaku/kenshisetsu-kyuushi.html'
-        },
-        {
           title: this.$t('【東京では・・】東京都公式サイト'),
           link: 'https://stopcovid19.metro.tokyo.lg.jp/'
         },
