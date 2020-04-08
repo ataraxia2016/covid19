@@ -166,8 +166,8 @@ export default {
           link: 'https://stopcovid19.metro.tokyo.lg.jp/'
         },
         {
-          title: this.$t('【近隣県もチェック！】群馬県非公式サイト'),
-          link: 'https://stopcovid19-gunma.netlify.com/'
+          title: this.$t('【近隣県もチェック！】群馬県公式サイト'),
+          link: 'http://stopcovid19.pref.gunma.jp/'
         },
         {
           title: this.$t('【近隣県もチェック！】山形県非公式サイト'),
