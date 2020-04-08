@@ -1,9 +1,9 @@
 {
     "newsItems": [
         {
-            "date": "4\/02\/2020",
-            "url": "https:\/\/www.city.niigata.lg.jp\/iryo\/kenko\/yobou_kansen\/kansen\/coronavirus.files\/press4.2.pdf",
-            "text": "新潟市『濃厚接触者等参考資料』"
+            "date": "4\/08\/2020",
+            "url": "https:\/\/cio.go.jp\/hosp_monitoring_c19",
+            "text": "政府CIOポータル『全国医療機関の提供体制の状況（β版）』"
         },
         {
             "date": "3\/30\/2020",
@@ -14,11 +14,6 @@
             "date": "3\/19\/2020",
             "url": "https:\/\/www.mhlw.go.jp\/content\/000610600.pdf",
             "text": "厚労省『新型コロナウイルス感染症の患者数が大幅に増えたときに備えた入院医療提供体制等の整備について』"
-        },
-        {
-            "date": "3\/21\/2020",
-            "url": "https:\/\/www.pref.niigata.lg.jp\/uploaded\/life\/266195_380913_misc.pdf",
-            "text": "新潟県『第４回新型コロナウイルス感染症に対する対策本部会議次第』"
         }
     ]
 }
