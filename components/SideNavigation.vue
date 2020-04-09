@@ -84,11 +84,31 @@
           </a>
           {{ $t('の下に提供されています。') }}
           <br />
-          {{
-            $t(
-              '本サイトは、新潟県内外の医師・エンジニア有志の手により運用されています'
-            )
-          }}
+          {{ $t('東京都サイトを参考に新潟県内外の') }}
+          <a
+            rel="license"
+            target="_blank"
+            :href="$t('https://phazor.info/blog-ja/?page_id=2')"
+          >
+            {{ $t('医師') }}
+          </a>
+          {{ $t('・') }}
+          <a
+            rel="license"
+            target="_blank"
+            :href="$t('https://twitter.com/air_h_128k_ili/')"
+          >
+            {{ $t('エンジニア') }}
+          </a>
+          {{ $t(' 有志（主に') }}
+          <a
+            rel="license"
+            target="_blank"
+            :href="$t('https://phazor.info/HorliX-J/')"
+          >
+            {{ $t('HorliX 開発チーム') }}
+          </a>
+          {{ $t('）により開発・運用されています') }}
         </small>
       </v-footer>
     </div>
