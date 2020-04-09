@@ -2,7 +2,7 @@
   <v-app class="app">
     <div v-if="loading" class="loader">
       <img src="/logo-NGT.svg" alt="新潟県" />
-      <scale-loader color="#3BA040" />
+      <scale-loader color="#00A040" />
     </div>
     <div v-else-if="hasNavigation" class="appContainer">
       <div class="naviContainer">
@@ -78,7 +78,7 @@ export default Vue.extend({
       link: [
         {
           rel: 'canonical',
-          href: `https://stopcovid19.metro.tokyo.lg.jp${this.$route.path}`
+          href: `https://stopcovid19-niigata-unofficial.netlify.com/${this.$route.path}`
         }
       ]
     }
