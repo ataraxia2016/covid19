@@ -124,7 +124,7 @@ import LanguageSelector from '@/components/LanguageSelector.vue'
 export default {
   components: {
     ListItem,
-    LanguageSelector
+    //LanguageSelector
   },
   props: {
     isNaviOpen: {
