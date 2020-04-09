@@ -177,22 +177,6 @@ export default {
             'https://www.pref.niigata.lg.jp/sec/kikitaisaku/shingata-corona.html'
         },
         {
-          title: this.$t('【東京では・・】東京都公式サイト'),
-          link: 'https://stopcovid19.metro.tokyo.lg.jp/'
-        },
-        {
-          title: this.$t('【近隣県もチェック！】群馬県公式サイト'),
-          link: 'http://stopcovid19.pref.gunma.jp/'
-        },
-        {
-          title: this.$t('【近隣県もチェック！】山形県非公式サイト'),
-          link: 'https://covid19-yamagata.netlify.com/'
-        },
-        {
-          title: this.$t('【近隣県もチェック！】富山県非公式サイト'),
-          link: 'https://stopcovid19-toyama.netlify.com/'
-        },
-        {
           title: this.$t('新潟県公式ホームページ'),
           link: 'https://www.pref.niigata.lg.jp/',
           divider: true

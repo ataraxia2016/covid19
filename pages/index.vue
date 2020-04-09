@@ -22,6 +22,53 @@
       <metro-card />
       <agency-card />-->
     </v-row>
+    <static-info
+      class="mb-4"
+      :url="'https://stopcovid19.metro.tokyo.lg.jp/'"
+      :text="$t('【緊急事態宣言発令中！】東京都公式サイト')"
+      :btn-text="$t('Jump!')"
+    />
+    <static-info
+      class="mb-4"
+      :url="'https://stopcovid19-yamagata.netlify.com/'"
+      :text="$t('【近隣県（県北部）】山形県非公式サイト')"
+      :btn-text="$t('Jump!')"
+    />
+    <static-info
+      class="mb-4"
+      :url="'https://fukushima-covid19.firebaseapp.com/'"
+      :text="$t('【近隣県（阿賀野川の源流）】福島県非公式サイト')"
+      :btn-text="$t('Jump!')"
+    />
+    <static-info
+      class="mb-4"
+      :url="'http://stopcovid19.pref.gunma.jp/'"
+      :text="$t('【近隣県（関越道繋がり）】群馬県公式サイト')"
+      :btn-text="$t('Jump!')"
+    />
+    <static-info
+      class="mb-4"
+      :url="'https://stopcovid19-toyama.netlify.com/'"
+      :text="$t('【近隣県（親知らずの向こう）】富山県非公式サイト')"
+      :btn-text="$t('Jump!')"
+    />
+    <static-info
+      class="mb-4"
+      :url="'https://stop-covid19-nagano.netlify.app/'"
+      :text="$t('【近隣県（川中島でおなじみ）】長野県非公式サイト')"
+      :btn-text="$t('Jump!')"
+    />
+    <!--<v-row class="StaticCard">
+    
+      <StaticCard>
+        {{　$t('当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、東京都が開設したものを、茨城県向けに改変したものです。')　}}<br /><br />
+        {{　$t('茨城県による公式情報と客観的な数値をわかりやすく伝えることで、茨城県にお住まいの方や、茨城県内に拠点を持つ企業の方、茨城県を訪れる方が、現状を把握して適切な対策を取れるようにすることを目的としています。')　}}<br><br>
+        {{ $t('なお、「非公式」とあるように、') }}{{ $t('このサイトは、茨城県が管理しているものではありません。') }}{{ $t('このサイトに関するご意見やご質問などは、県ではなくAsaにお寄せください。')}}{{ $t('県はこのサイトには一切関与しておりません。') }}
+        <i18n path="詳しくは、{contact}をご確認ください。">
+        <nuxt-link :to="localePath('/contacts')" place="contact">{{ $t('お問い合わせ先一覧') }}</nuxt-link>
+        </i18n>
+      </StaticCard>
+      </v-row>-->
   </div>
 </template>
 
