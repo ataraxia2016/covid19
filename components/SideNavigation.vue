@@ -160,12 +160,6 @@ export default {
           link: this.localePath('/parent')
         },
         {
-          icon: 'mdi-account-multiple',
-          title: this.$t('県民の皆様へ'),
-          link:
-            'https://www.pref.niigata.lg.jp/sec/kikitaisaku/shingata-corona.html'
-        },
-        {
           icon: 'mdi-domain',
           title: this.$t('企業の皆様・はたらく皆様へ'),
           link: this.localePath('/worker'),
