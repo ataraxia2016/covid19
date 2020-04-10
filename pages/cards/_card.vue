@@ -166,12 +166,12 @@ export default {
     return data
   },
   head() {
-    const url = 'https://stopcovid19-niigata-unofficial.netlify.com/'
+    const url = 'https://stopcovid19-niigata-unofficial.netlify.com'
     const ogpImage = url + '/ogp-' + this.$route.params.card + '.png'
     const description =
       this.updatedAt +
       ' 更新 | ' +
-      '当サイトは新型コロナウイルス感染症（COVID-19）に関する最新情報を提供するために、東京都が開設したものです。'
+      '当サイトは新型コロナウイルス感染症（COVID-19）に関する最新情報を提供するために、新潟県民有志（医師含む）が開設したものです。'
 
     return {
       title: this.title,
@@ -184,7 +184,7 @@ export default {
         {
           hid: 'og:title',
           property: 'og:title',
-          content: this.title + ' | 東京都 新型コロナウイルス感染症対策サイト'
+          content: this.title + ' | 新潟県 新型コロナウイルス感染症対策サイト'
         },
         {
           hid: 'description',
