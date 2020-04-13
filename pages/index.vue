@@ -49,7 +49,7 @@
     <static-info
       class="mb-4"
       :url="'https://stopcovid19-toyama.netlify.com/'"
-      :text="$t('【近隣県（親知らずの向こう）】富山県非公式サイト')"
+      :text="$t('【近隣県（親知らずの向こう）】富山県公認サイト')"
       :btn-text="$t('Jump!')"
     />
     <static-info
