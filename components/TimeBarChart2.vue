@@ -1,8 +1,8 @@
 <template>
   <data-view :title="title" :title-id="titleId" :date="date" :url="url">
-    <template v-slot:button>
+    <!--<template v-slot:button>
       <data-selector v-model="dataKind" />
-    </template>
+    </template>-->
     <bar
       :chart-id="chartId"
       :chart-data="displayData"
@@ -59,7 +59,7 @@ export default {
     unit: {
       type: String,
       required: false,
-      default: ''
+      default: '%'
     },
     url: {
       type: String,
@@ -115,7 +115,11 @@ export default {
             {
               label: this.dataKind,
               data: this.chartData.map(d => {
-                return d.transition
+                const DayA = this.chartData.slice(-1)[0].transition
+                const DayB = this.chartData.slice(-2)[0].transition
+                const DayC = this.chartData.slice(-3)[0].transition
+                d=DayA+DayB 
+                return d.transition * 100
               }),
               backgroundColor: '#3b64b0',
               borderWidth: 0
