@@ -15,9 +15,9 @@
     <v-row class="DataBlock">
       <tested-number-card />
       <confirmed-cases-number-card />
+      <positive-rate-card />
       <confirmed-cases-details-card />
       <confirmed-cases-attributes-card />
-      <positive-rate-card />
       <!--<telephone-advisory-reports-number-card />
       <consultation-desk-reports-number-card />
       <metro-card />
