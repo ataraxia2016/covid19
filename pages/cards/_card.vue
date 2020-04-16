@@ -30,6 +30,9 @@
       "
     />
     <agency-card v-else-if="this.$route.params.card == 'agency'" />
+    <positive-rate-card
+      v-else-if="this.$route.params.card == 'positive-rate'"
+    />
   </div>
 </template>
 
