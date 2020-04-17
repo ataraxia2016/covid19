@@ -30,7 +30,7 @@ const config: Configuration = {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'https://stopcovid19-niigata-unofficial.netlify.com/'
+        content: 'https://stopcovid19-niigata-unofficial.netlify.app/'
       },
       {
         hid: 'og:title',
@@ -46,7 +46,7 @@ const config: Configuration = {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://stopcovid19-niigata-unofficial.netlify.com/ogp.png'
+        content: 'https://stopcovid19-niigata-unofficial.netlify.app/ogp.png'
       },
       {
         hid: 'twitter:card',
@@ -66,7 +66,7 @@ const config: Configuration = {
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: 'https://stopcovid19-niigata-unofficial.netlify.com/ogp.png'
+        content: 'https://stopcovid19-niigata-unofficial.netlify.app/ogp.png'
       },
       {
         hid: 'fb:app_id',
