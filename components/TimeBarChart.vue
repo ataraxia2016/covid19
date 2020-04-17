@@ -244,6 +244,7 @@ export default {
     },
     scaledTicksYAxisMax() {
       const yAxisMax = 1.2
+      //const yAxisMax = 100
       const dataKind =
         this.dataKind === 'transition' ? 'transition' : 'cumulative'
       const values = this.chartData.map(d => d[dataKind])

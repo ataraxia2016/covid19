@@ -1,7 +1,7 @@
 <template>
   <v-col cols="12" md="6" class="DataCard">
     <time-bar-chart
-      :title="$t('陽性率（直近3日平均：直近3日総陽性者数/直近3日総検査数 x 100[%]）')"
+      :title="$t('【参考：東京都の】陽性率（直近3日平均：直近3日総陽性者数/直近3日総検査人数 x 100[%]）')"
       :title-id="'positive-rate'"
       :chart-id="'time-bar-chart-patients'"
       :chart-data="patientsGraph"
@@ -41,10 +41,10 @@
 </i18n>
 
 <script>
-import Data from '@/data/positiverate3.json'//origin
-//import Data from '@/data/positiverate3-tokyo.json'
+//import Data from '@/data/positiverate3.json'//origin
+import Data from '@/data/positiverate3-tokyo.json'
 import formatGraph from '@/utils/formatGraph'
-import TimeBarChart from '@/components/TimeBarChart2.vue'
+import TimeBarChart from '@/components/TimeBarChart3.vue'
 
 export default {
   components: {

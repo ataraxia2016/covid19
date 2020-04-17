@@ -124,8 +124,8 @@ export default {
               }),
               fill: false,//add h.inomata
               lineTension: 0,//add h.inomata
-              backgroundColor: 'rgba(59, 89, 152, 0.8)',
-              borderColor:'rgba(59, 89, 152, 0.9)',
+              backgroundColor: 'rgba(00, 160, 64, 0.8)',
+              borderColor:'rgba(00, 160, 64, 0.9)',
               borderWidth: 0
             }
           ]
