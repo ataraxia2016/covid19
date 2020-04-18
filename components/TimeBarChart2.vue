@@ -1,9 +1,9 @@
 <template>
   <data-view :title="title" :title-id="titleId" :date="date" :url="url">
-    <template v-slot:button>
+    <!--<template v-slot:button>
       <data-selector v-model="dataKind" />
-    </template>
-    <bar
+    </template>-->
+    <line-chart
       :chart-id="chartId"
       :chart-data="displayData"
       :options="displayOption"
@@ -44,7 +44,7 @@ export default {
     chartId: {
       type: String,
       required: false,
-      default: 'time-bar-chart'
+      default: 'line-chart'
     },
     chartData: {
       type: Array,
@@ -59,7 +59,7 @@ export default {
     unit: {
       type: String,
       required: false,
-      default: ''
+      default: '%'
     },
     url: {
       type: String,
@@ -86,7 +86,8 @@ export default {
     displayInfo() {
       if (this.dataKind === 'transition') {
         return {
-          lText: `${this.chartData.slice(-1)[0].transition.toLocaleString()}`,
+          lText: `${this.chartData.slice(-1)[0].transition.toLocaleString("ja-jp",{maximumSignificantDigits:3})}`,//origin
+          //lText: `${this.chartData.slice(-1)[0].transition.toFixed(3)*100.0}`,//add h.inomata
           sText: `${this.$t('実績値')}（${this.$t('前日比')}: ${
             this.displayTransitionRatio
           } ${this.unit}）`,
@@ -115,9 +116,16 @@ export default {
             {
               label: this.dataKind,
               data: this.chartData.map(d => {
+                //let start = Math.max(0, idx - neighbors), end = idx + neighbors
+                //let subset = d.slice(start, end + 1)
+                //let sum = subset.reduce((a,b) => a + b)
+                //return sum / subset.length
                 return d.transition
               }),
-              backgroundColor: '#3b64b0',
+              fill: false,//add h.inomata
+              lineTension: 0,//add h.inomata
+              backgroundColor: 'rgba(59, 89, 152, 0.8)',
+              borderColor:'rgba(59, 89, 152, 0.9)',
               borderWidth: 0
             }
           ]
@@ -235,6 +243,7 @@ export default {
                 suggestedMin: 0,
                 maxTicksLimit: 8,
                 fontColor: '#808080',
+                max: 100,//add h.inomata
                 suggestedMax: scaledTicksYAxisMax
               }
             }
@@ -243,12 +252,13 @@ export default {
       }
     },
     scaledTicksYAxisMax() {
-      const yAxisMax = 1.2
-      //const yAxisMax = 100
+      //const yAxisMax = 1.2
+      const yAxisMax = 1.0
       const dataKind =
         this.dataKind === 'transition' ? 'transition' : 'cumulative'
       const values = this.chartData.map(d => d[dataKind])
-      return Math.max(...values) * yAxisMax
+      //return Math.max(...values) * yAxisMax
+      return 1
     }
   },
   methods: {
