@@ -1,7 +1,7 @@
 # 新潟県（非公式） 新型コロナウイルス感染症対策サイト
 
 
-[![新潟県（非公式） 新型コロナウイルス感染症対策サイト](https://user-images.githubusercontent.com/20388463/76857312-8aba3c00-6898-11ea-9e49-ab5bd7e65be3.png)](https://stopcovid19-niigata-unofficial.netlify.com/)
+[![新潟県 -非公式- 新型コロナウイルス感染症対策サイト](https://user-images.githubusercontent.com/20388463/79598600-37e5d580-811f-11ea-94c5-58fc527e0cc7.png)](https://stopcovid19-niigata-unofficial.netlify.app/)
 
 ### 日本語 | [English](./README_EN.md) | [Spanish](./README_ES.md) | [Korean](./README_KO.md) | [Chinese (Taiwan)](./README_ZH_TW.md) | [Chinese (Simplified)](./README_ZH_CN.md) | [Vietnamese](./README_VI.md)
 
@@ -54,9 +54,9 @@ $ yarn install
 $ docker-compose run --rm app yarn install
 ```
 
-### ステージング・本番環境への反映（東京都サイト）
+### ステージング・本番環境への反映
 
-`master` ブランチがアップデートされると、自動的に `production` ブランチにHTML類がbuildされます。そして、本番サイト https://stopcovid19.metro.tokyo.lg.jp/ が更新されます。
+`master` ブランチがアップデートされると、自動的に `production` ブランチにHTML類がbuildされます。そして、本番サイト https://stopcovid19-niigata-unofficial.netlify.app/ が更新されます。
 
 `staging` ブランチがアップデートされると、自動的に `gh-pages` ブランチにHTML類がbuildされます。そして、ステージングサイト https://stg-covid19-tokyo.netlify.com/ が更新されます。
 
