@@ -241,7 +241,9 @@ const config: Configuration = {
         '/cards/number-of-reports-to-covid19-telephone-advisory-center',
         '/cards/number-of-reports-to-covid19-consultation-desk',
         '/cards/predicted-number-of-toei-subway-passengers',
-        '/cards/agency'
+        '/cards/agency',
+        '/cards/positive-rate', // add ataraxia
+        '/cards/positive-rate2' // add ataraxia
       ]
 
       const routes: string[] = []
